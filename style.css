@@ -87,7 +87,7 @@ body {
     font-weight: bold;
 }
 
-.hero-image{
+.hero-image {
     display: flex;
     margin-left: auto;
     padding: 50px 100px 100px 0px;
@@ -127,4 +127,87 @@ main h2 {
     border-radius: 20px;
     width: 160px;
     height: 160px;
+}
+
+.quotation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 20px 600px 20px 600px;
+}
+
+.quotation p {
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #1f2937;
+}
+
+.quotation em {
+    font-size: 36px;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-container {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.signup-container button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: 2px solid #FFF;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+strong {
+    font-size: 24px;
+    color: #FFF;
+}
+
+.signup-left {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px 200px 20px 200px;
+    margin-right: auto;
+}
+
+.signup-right {
+    padding: 50px 100px 100px 0px;
+    margin-left: auto;
+}
+
+.secondary,
+a:link {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px 20px 200px;
 }
